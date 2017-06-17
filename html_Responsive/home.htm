@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta name="Keywords" content="Home, Jennifer Stratman, Introduction"/>
+<meta name="Author" content="Jennifer Stratman"/>
+<meta name="Description" content="Home page with introduction"/>
+<meta name="Robots" content="NOINDEX"/>
+<meta charset="utf-8"/>
+<meta http-equiv="default-style" content="html"/>
+<link rel="stylesheet"  type="text/css" href="../css/responsive.css"/>
+<title>Home Page -- Jennifer Stratman</title>
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada:700');
+</style>
+</head>
+
+
+<body>
+<div class="wrapper">
+	<!-- HEADER -->
+
+<header class="linkhead" id="navLink">
+	<a href="home.htm">Home</a>
+	<a href="guestbook.htm">Guestbook</a>
+	<a href="interests.htm">Interests</a>
+	<a href="reflections.htm">Reflections</a>
+	<a href="resume.htm">Resume</a>
+	<a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a>
+</header>	
+
+<script>
+function navFunction() {
+    var x = document.getElementById("navLink");
+    if (x.className === "linkhead") {
+        x.className += " responsive";
+    } else {
+        x.className = "linkhead";
+    }
+}
+</script>	
+	
+	<!--	<header>
+	<ul>
+	<li><a href="home.htm" class="linkhead">Home</a> | </li>
+	<li><a href="guestbook.htm" class="linkhead">Guestbook</a> | </li>
+	<li><a href="interests.htm" class="linkhead">Interests</a> | </li>
+	<li><a href="reflections.htm" class="linkhead">Reflections</a> | </li>
+	<li><a href="resume.htm" class="linkhead">Resume</a> | </li>
+	</ul>
+	</header>
+-->
+	<!-- ASIDE -->
+<!--	
+     <nav id="nav"><img alt="Picture of Jennifer Stratman" src="../images/navBar_Me.png"></nav> 
+-->
+	<aside id="asideHome"></aside>
+	<!-- ARTICLE -->
+	<article>
+	<h1>Home</h1>
+
+	<h3>Introduction</h3>
+	<p>
+	This website was created as the final project for <em>CIS241</em>, which is a required course for the <a href="http://catalog.edcc.edu/preview_program.php?catoid=48&poid=9615&returnto=13776" target="_blank">Web Application and Cloud Developer Associate of Technical Arts (ATA) Degree</a>. 
+	I am taking advantage of Unemployment Training Benefits to earn this degree. Read below and explore the rest of this website to learn more about me.
+	</p>
+	<h3>Background</h3>
+	<p>
+	I was born in <a href="https://en.wikipedia.org/wiki/Kalamazoo,_Michigan" target="_blank">Kalamazoo, Michigan</a>, origin of the <a href="https://en.wikipedia.org/wiki/Checker_Motors_Corporation" target="_blank">Checker Motors Corporation</a>, <a href="https://en.wikipedia.org/wiki/Gibson_Guitar_Corporation" target="_blank">Gibson guitars</a>, and the <a href="https://www.kalamazoopromise.com/" target="_blank">Kalamazoo Promise</a>.
+	I have spent the last decade working  as a computer system validation auditor for contract research organizations in the pharmaceutical industry. I moved to the Pacific Northwest about 6 years ago after Michigan's economy tanked along with the automobile industry.
+	</p>
+	<h3>A Bit More</h3>
+	<p>
+		Some of my interests include traveling, hockey, hiking, backpacking, winter sports, learning, reading, and cooking. I especially love exploring new places. Go to my <a href="interests.htm">Interests page</a> for links to some of my favorites.
+	</p>
+	<p>
+	The only problem with traveling is that I often have to leave my dog and cats behind. Because no website is complete without a dog or cat picture, I've included pics of my critters below.
+	</p>
+
+	<div id="pets">
+	<img class="roundimg" alt="My dog, Porter Bean" src="../images/Porter.png"> 
+	<figcaption><em>Porter Bean</em></figcaption>
+	<img class="rectangleimg" alt="My cat, Evvil" src="../images/Evvil.png"> 
+	<figcaption><em>Evvil</em></figcaption>
+	<img class="roundimg" alt="My cat, Togi" src="../images/Togi.png"> 
+	<figcaption><em>Togi</em></figcaption>
+	</div>
+	</article>
+
+	<!-- FOOTER -->
+
+	<footer>
+	<a href="home.htm">Home</a> | 
+	<a href="guestbook.htm">Guestbook</a> | 
+	<a href="interests.htm">Interests</a> | 
+	<a href="reflections.htm">Reflections</a> |
+	<a href="resume.htm">Resume</a><br/><br/> 
+	<div id="copyright">&copy; 2016 Stratman Incorporated, All Rights Reserved</div>
+	</footer>
+	
+	<p><img src="../images/valid-css.gif" alt="Valid CSS!" height="31" width="88"  /></p>
+</div>
+</body>
+</html>

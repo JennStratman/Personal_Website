@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Guestbook - Jennifer Stratman</title>
+<meta name="author" content="Jennifer Stratman" />
+<meta name="keywords" content="Personal Website, Jennifer Stratman, Form, Guestbook" />
+<meta name="Description" content="Guestbook for Jennifer Stratman's website"/>
+<meta name="Robots" content="NOINDEX"/>
+<meta charset="utf-8"/>
+<meta http-equiv="default-style" content="html"/>
+<link rel="stylesheet"  type="text/css" href="../css/responsive.css"/>
+<style>
+select {color:blue;}
+textarea {color:blue;}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+<!-- HEADER -->
+
+<header class="linkhead" id="navLink">
+	<a href="home.htm">Home</a>
+	<a href="guestbook.htm">Guestbook</a>
+	<a href="interests.htm">Interests</a>
+	<a href="reflections.htm">Reflections</a>
+	<a href="resume.htm">Resume</a>
+	<a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a>
+</header>	
+
+<script>
+function navFunction() {
+    var x = document.getElementById("navLink");
+    if (x.className === "linkhead") {
+        x.className += " responsive";
+    } else {
+        x.className = "linkhead";
+    }
+}
+</script>
+
+	<!-- ASIDE -->
+<!--
+	Original code commented out to experiment with placing image in css rather than in the html.
+	<nav id="nav"><img alt="Wine glass in Mexico's wine region" src="../images/navBar_Glass.png"></nav>
+-->
+	
+	<aside id="asideGuestbook"></aside>
+	
+<!-- ARTICLE -->
+	<article>
+	<h1>Guest Book</h1>
+
+	<form
+		method="post"
+		action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+
+		Enter Your Name: <input type="text" name="Name" size="40"/>	
+		<br/>
+		<br/>
+		Enter Your E-mail: <input type="text" name="Email" size="40"/>
+		<br/>
+		<br/>
+		What country do you live in? <input type="text" name="Country" size="40"/>
+		<br/>
+		<br/>
+		What is your age group?<br/>
+		<input type="radio" name="AddToList" value="Under 18"/> Under 18<br/>
+		<input type="radio" name="AddToList" value="18-30" checked="checked"/> 18-30<br/>
+		<input type="radio" name="AddToList" value="31-45"/> 31-45<br/>
+		<input type="radio" name="AddToList" value="46-64"/> 46-64<br/>
+		<input type="radio" name="AddToList" value="65 and over"/> 65 and over<br/>
+		<br/>
+		Should we add you to our mailing list? <input type="checkbox" name="Mailing"/><br/>
+		<br/>
+		What sports are you interested in? <br/>
+		<select name="Sports" multiple="multiple" size="5">
+			<option value="None">Sports? Does couch surfing count?</option>
+			<option>Hockey</option>
+			<option value="Soccer">Soccer (or Football, if you live anywhere outside the U.S.)</option>
+			<option>American Football</option>
+			<option>Competitive Eating</option>
+			<option>Basketball</option>
+			<option>Dodgeball</option>
+			<option>Bowling</option>
+			<option>Biathalon</option>
+			<option>Baseball</option>
+		</select>
+		<br/>
+		<br/>
+		How did you find my website?
+		<br/>
+		<select name="websiteFind" size="1">
+			<option>EDCC homepage</option>
+			<option>Friend</option>
+			<option>Telepathy</option>
+			<option>Accident</option>
+			<option value="Fifth">I plead the fifth!</option>
+		</select>
+		<br/>
+		<br/>
+
+		I've shown you <em>mine</em>, now it's time to show me <em>yours</em>.<br/>
+		Please provide your website's address:<br/>
+		<textarea name="website" cols="30" rows="5">http://
+		</textarea>
+		<br/>
+		<br/>
+		
+		Comments:<br/>
+		<textarea name="comments" cols="30" rows="5">Enter your message here.
+		</textarea>
+		<br/>
+		<br/>
+
+		<input type="submit"/>
+		<input type="reset"/>
+		
+	</form>
+	</article>
+
+	<!-- FOOTER -->
+
+	<footer>
+	<a href="home.htm">Home</a> | 
+	<a href="guestbook.htm">Guestbook</a> | 
+	<a href="interests.htm">Interests</a> | 
+	<a href="reflections.htm">Reflections</a> |
+	<a href="resume.htm">Resume</a><br/><br/> 
+	<div id="copyright">&copy; 2016 Stratman Incorporated, All Rights Reserved</div>
+	</footer>
+	
+	<p><img src="../images/valid-css.gif" alt="Valid CSS!" height="31" width="88"  /></p>
+</div>
+</body>
+</html>

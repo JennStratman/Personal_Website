@@ -1,0 +1,104 @@
+The purpose of this site is to demonstrate competency in the skills taught in CIS241 and to showcase the work that I have completed.
+This site consists of five pages: Home, Guestbook, Interests, Reflections, and Resume.
+The project folder structure is as follows:
+
+sitefolder
+|
+|--css
+|	|--myStyle.css
+|
+|--html
+|	|--guestbook.htm
+|	|--home.htm
+|	|--interests.htm
+|	|--reflections.htm
+|	|--resume.htm
+|
+|--images
+|	|--Evvil.png
+|	|--navBar_Glacier.png
+|	|--navBar_Glass.png
+|	|--navBar_Ice.png
+|	|--navBar_Me.png
+|	|--navBar_Volcano.png
+|	|--Porter.png
+|	|--Togi.png
+|	|--valid-css.gif
+|
+|--documentation
+|	|--siteSpecification.txt
+
+
+
+General page layout for the website is as follows:
+
+ -----------------------------------------------------------------------------------------
+|	[Header with black background, Hyperlinks (white) to each page on the website]	     |
+ -----------------------------------------------------------------------------------------	
+|						|																 |
+|						|																 |
+|						|																 |
+| [Navbar with embedded	|	[Article section. This is where the main text of each page	 |
+|	image that spans	|		will go. Background will be light gray, text color black,|
+|	length of the page.	|		font family will include san-serif fonts and be 		 |
+|	There will be a 	|		consistent throughout all pages. Hyperlink color will 	 |
+|	different image for	|		be a shade of light blue (same as to be used for 		 |
+|	each page on the	|		footer).]												 |
+|	site.]				|																 |
+|						|																 |
+ -----------------------------------------------------------------------------------------
+| [Footer with black background and white text, Hyperlinks to each page on the site will |
+|	be included in a shade of light blue]|												 |
+ -----------------------------------------------------------------------------------------
+ [Valid to CIW logo will go here.]
+ 
+ 
+ The purpose of each page, page navigation, and embedded images for each page are as follows:
+ 
+|---Home (provide an introduction to the website and introduce the user to me)
+|		|---../images/
+|		|		|---navBar_Me.png
+|		|		|---../images/Porter.png
+|		|		|---../images/Evvil.png
+|		|		|---../images/Togi.png
+|		|
+|		|---http://
+|				|---catalog.edcc.edu/preview_program.php?catoid=48&poid=9615&returnto=13776 (opens in new window/tab)
+|				|---en.wikipedia.org/wiki/Kalamazoo,_Michigan (opens in new window/tab)
+|				|---en.wikipedia.org/wiki/Checker_Motors_Corporation (opens in new window/tab)
+|				|---en.wikipedia.org/wiki/Gibson_Guitar_Corporation (opens in new window/tab)
+|				|---www.kalamazoopromise.com/ (opens in new window/tab)
+|
+|---Guestbook (contains a form for the user to fill out)
+|		|---../images/
+|				|---navBar_Glass.png
+|
+|---Interests (provide a list of some of the places I have traveled and the places I have backpacked, with relevant links)
+|		|---../images/
+|		|		|---navBar_Volcano.png
+|		|
+|		|---http://
+|				|---www.globalatheart.com/in-love-with-iceland/ (opens in new window/tab)
+|				|---www.globalatheart.com/friendsgiving-travel-tips/" (opens in new window/tab)
+|				|---www.icehockeyhongkong.org/2016/11/07/2017-megaice-hockey-5s-application/ (opens in new window/tab)
+|				|---www.qualitefle.fr/en/center/centre-de-linguistique-appliquee-cla-universite-de-franche-comte-87303 (opens in new window/tab)
+|				|---www.gothiacup.se/eng/ (opens in new window/tab)
+|				|---www.mccormicktract.com/ (opens in new window/tab)
+|				|---www.pc.gc.ca/eng/pn-np/on/pukaskwa/index.aspx (opens in new window/tab)
+|				|---www.ontarioparks.com/park/algonquin (opens in new window/tab)
+|				|---www.michigandnr.com/parksandtrails/details.aspx?type=SPRK&id=426 (opens in new window/tab)
+|				|---www.michigandnr.com/parksandtrails/details.aspx?type=SPRK&id=426 (opens in new window/tab)
+|
+|---Reflections (discuss my thoughts about the course and what I learned)
+|		|---../images/
+|				|---navBar_Ice.png
+|
+|---Resume (provide my resume using tables)
+|		|---../images/
+|		|		|---navBar_Glacier.png
+|		|
+|		|---http://
+|				|---linkedin.com/in/JenniferMStratman (opens in new window/tab)
+|				|---www.wmich.edu (opens in new window/tab)
+|				|---www.kvcc.edu (opens in new window/tab)
+|				|---www.edcc.edu (opens in new window/tab)

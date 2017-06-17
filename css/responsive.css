@@ -1,0 +1,522 @@
+/*STYLE SHEET FOR HOME.HTM, INTERESTS.HTM, RESUME.HTM, GUESTBOOK.HTM, REFLECTIONS.HTM*/
+
+/**************************************************************************************
+ http://meyerweb.com/eric/tools/css/reset/ 
+ v2.0 | 20110126
+ License: none (public domain)
+**************************************************************************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**************************************************************************************
+CSS by Jennifer Stratman
+version 2.0
+May 21, 2017
+**************************************************************************************/
+html
+{
+  font-size: 16px;
+}
+
+body
+{
+  background-color:#ffffff;
+  color:#000000;
+  font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+/* H TAGS */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+ }
+ 
+h1 
+{
+
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 2.5rem;
+  padding: 0.5rem 0 1rem 0;
+  text-align: center;
+  text-shadow: 1px 2px skyblue;
+}
+
+h2
+{
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3
+{
+  font-size: 1.5rem;
+  text-align:center;
+}
+
+/*article, nav, #head, footer
+{
+border-style:solid;
+border-width:2px;
+border-color:#000000;
+padding:2px;	
+}*/
+
+p, form
+{
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, Geneva, Swiss, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.5625rem 0;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  /* padding: 0.3125rem; */
+  text-align:left-justify;
+  width: 100%;
+  /*  margin-top:9px;  */
+  /*  margin-bottom:9px; */
+  /*  padding:5px; */
+}
+
+/*h3.center
+{
+text-align:center;
+padding:0px;	
+}*/
+
+/* header li
+{
+  display: inline-block;
+} */
+/*  margin: auto 0; */
+/*  border: 1px solid red; */
+/*  padding: 20px; */
+
+/*
+#head
+{
+  padding:20px;
+  margin:0px;
+  border:10px;
+  width:960px;
+  height:40px;
+  background:#000000;
+  color:#ffffff;
+  font-size:150%;
+}
+*/
+
+a
+{
+  color:#0099cc;
+  text-decoration: none;
+  padding-top: 0;
+}
+
+.linkhead a
+{
+  color:#ffffff;
+  padding: 1.5rem;
+}
+
+/*Changes the header links on hover */
+.linkhead a:hover
+{
+  color: #0099cc;
+  background-color: #ddd; 
+}
+
+  /* Hide the link that should open and close the topnav on small screens */
+  header .icon 
+  {
+    display: none;
+  }
+  
+figcaption
+{
+  font-weight:bolder;
+  text-shadow: 1px 0 skyblue;
+}
+
+#copyright
+{
+	font-size: 0.75rem;
+	padding: 0.15625rem 0;
+	text-align: center;
+}
+
+#pets
+{
+  text-align:center;
+}
+
+article img 
+{
+  box-shadow: 2px 2px skyblue;
+}
+.roundimg
+{
+  border-radius:50%;
+/*  box-shadow: 2px 2px red; */
+}
+
+.rectangleimg {
+  border-radius:8px;
+  box-shadow: 2px 2px red;
+}
+
+table
+{
+  font-size:80%;
+}
+
+table.embedded
+{
+  font-size:97%;
+}
+
+th.large
+{
+  font-size:120%;
+  padding:20px;
+  text-align:center;
+  padding-top:0px;
+}
+
+th.left
+{
+  text-align:left;
+}
+
+td.leftpadded	
+{
+  padding-left:2px;
+}
+
+ul
+{
+  font-size:100%;
+  font-family:Arial, Helvetica, Geneva, Swiss, sans-serif;
+  padding:0px;
+  text-align:left;
+}
+
+li
+{
+  padding:10px;
+  margin-left:10px;
+  list-style-position:inside;
+  list-style-type: circle;
+}
+
+#asideGuestbook
+{
+  background: url(../images/aside_Glass.png) no-repeat left;
+/*  background-size: contains; */
+}
+
+#asideHome
+{
+  background: url(../images/aside_Me.png) no-repeat left;
+}
+
+#asideInterests
+{
+	background: url(../images/aside_Volcano.png) no-repeat left;
+}
+
+#asideReflections
+{
+	background: url(../images/aside_Ice.png) no-repeat left;
+}
+
+#asideResume
+{
+	background: url(../images/aside_Glacier.png) no-repeat left;
+}
+
+#valid-css
+{
+	background: url(../images/valid-css.gif) no-repeat left;
+	height: 31px;
+	width: 88px;
+}
+
+  article
+  {
+    background-color: WhiteSmoke;
+    background: url('../images/paper_fibers.png') repeat;
+    box-sizing: content-box;
+    color:#000000;
+    display: block;
+    height:980px;	
+    margin: 0px;	
+    min-height:600px;
+/*    padding: 1.25rem 1.25rem 1.25rem 14.5rem; */
+    padding: 0 1.25rem 0 20rem;
+    position: static;
+    width: 67.3469%;
+    /* THESE PROPERTIES WERE FROM PREVIOUS VERSIONS/TESTS 
+    padding: 0 1.25rem 0 14.5rem;
+	padding-left: 32.6531%;
+	padding-left: 330px;
+    min-width: 660px;
+	background-color:#eeeeff;
+    */
+  }	
+
+  aside
+  {
+    background-color: #0099cc;
+    background-position: cover;
+    display: block;
+    float: left;
+    height: auto;	
+    margin: 0px;
+    min-height: 980px;
+    padding: 0px;    
+	width: 32.6531%;
+
+    /* THESE PROPERTIES WERE USED IN PREVIOUS VERSIONS AND/OR FOR TESTING
+    height:100%;
+	margin-bottom:0px;
+    min-height:605px;
+	width:330px;
+	width: 320px;
+    */
+  }
+  
+  footer
+  {
+    background-color:#000000;
+    background: url('../images/black_paper.png') repeat;
+    box-sizing: content-box;
+    color:#ffffff;
+    display:block;  
+    float:bottom;
+    font-family:Arial, Helvetica, Geneva, Swiss, sans-serif;	
+    font-size: 0.8rem;
+    height:60px;	
+    margin-top:0px;
+    margin-right:0px;
+	padding: 0.624657rem;
+    text-align: center;
+    width: 100%;	
+	/* THESE PROPERTIES WERE USED IN PREVIOUS VERSIONS AND/OR FOR TESTING
+	padding:15px;
+	width:980px;
+	padding: 0.732031rem; */
+  }
+  
+  header
+  {
+    background-color: #000;
+    background: url('../images/black_paper.png') repeat;
+    box-sizing: content-box;
+    color: #fff;
+    font-size: 1.25rem;
+    /* position: absolute; */
+    margin: 0;
+    padding: 1.5rem 0 1.5rem 1.249188rem;
+	/*    padding: 1.5rem 0 1.5rem 1.464063rem; */
+    width: 100%;
+ 
+/*  THESE PROPERTIES WERE USED IN PREVIOUS VERSIONS AND/OR FOR TESTING
+    /*
+    background:#000000;
+    border:10px;
+    border: 10px solid red;	
+    color:#ffffff;
+    font-size:150%;
+    height:40px;
+    height: 50px;
+	padding:20px; 
+	width:960px
+	*/
+  }
+   
+  .wrapper 
+  {
+    float: fixed;
+	height: 100%;
+    margin: 0 auto;
+    min-width: 700px;
+	width: 980px;	
+  }
+
+@media only screen and (max-width:719px){
+  article
+  {
+    box-sizing: border-box !important;
+    height: auto;
+    padding: 1.25rem !important;
+    position: relative !important;  	
+    width: 100% !important;
+
+/* THESE PROPERTIES ARE ALL THE SAME AS THE PROPERTIES FOR THE LARGER VIEWSCREENS
+  /*	
+    background-color: WhiteSmoke;
+    background: url('../images/paper_fibers.png') repeat;
+    color:#000000;
+    display:block;  
+    margin:0px;
+  */
+
+/* THESE PROPERTIES WERE FROM PREVIOUS VERSIONS/TESTS
+    /*
+      max-width: 320px;
+      min-width: 220px;
+      padding-left: 320px;
+      right: 100%;
+      height:980px;
+      height: 100%; 
+      min-height:600px;
+      background-color:#eeeeff; 
+	*/
+  }
+
+  aside 
+  {
+    display: hidden;
+	width: 0;
+  }
+
+  footer
+  {
+    box-sizing: border-box;
+    padding: 0.625rem; 
+
+/* THESE PROPERTIES ARE ALL THE SAME AS THE PROPERTIES FOR THE LARGER VIEWSCREENS
+    background-color:#000000;
+    background: url('../images/black_paper.png') repeat;
+    color:#ffffff;
+    display:block;
+    float:bottom;  
+    font-family:Arial, Helvetica, Geneva, Swiss, sans-serif;
+    font-size: 0.8rem;
+    height:60px;
+    margin-top:0px;
+    margin-right:0px;
+    text-align:center;
+    width:100%;
+	*/
+  }
+  
+  header
+  {
+    box-sizing: border-box;
+    padding: 1.5rem;
+	/*    padding: 1.5rem 3rem 1.5rem 3em; */
+	
+/* THESE PROPERTIES ARE THE SAME AS THE PROPERTIES FOR THE LARGER VIEWSCREENS
+	background-color: #000;
+    color: #fff;
+    font-size: 1.25rem;
+    float: absolute;
+    margin: 0;
+    width: 100%;
+    */
+
+/* THESE PROPERTIES WERE FROM PREVIOUS VERSIONS/TESTS
+    background: url('../images/black_paper.png') repeat;
+    border:10px;
+	border: 10px solid red;
+    color:#ffffff;	
+    font-size:150%;	
+	height:40px;
+	height: 60px;
+	padding:20px;
+    width:960px;
+  */
+  }
+
+  /* WRAPPER */ 
+  .wrapper
+  {
+    max-width: 320px !important;
+    min-width: 220px !important;
+    width: 100% !important;
+	
+/* THESE PROPERTIES ARE THE SAME AS THE PROPERTIES FOR THE LARGER VIEWSCREENS    
+    float: fixed;
+    margin: 0 auto;
+    */	
+  }
+
+  h1
+  {
+	border-bottom: 0.125rem solid black;
+  }
+  
+  header a:not(:first-child)
+  {
+	display: none;
+  }
+  
+  header a.icon
+  {
+	float: right;
+	display: block;
+  }
+  
+  header.responsive 
+  {
+	position: relative;
+  }
+  
+  header.responsive a.icon
+  {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  header.responsive a
+  {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+

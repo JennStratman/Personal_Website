@@ -1,0 +1,106 @@
+@media only screen and (min-width:720px){
+  article
+  {
+    background-color: WhiteSmoke;
+    background: url('../images/paper_fibers.png') repeat;
+    box-sizing: content-box;
+    color:#000000;
+    display: block;
+    height:980px;	
+    margin: 0px;	
+    min-height:600px;
+    padding: 1.25rem 1.25rem 1.25rem 14.5rem;
+    position: static;
+    width: 67.3469%;
+    /* THESE PROPERTIES WERE FROM PREVIOUS VERSIONS/TESTS 
+    padding: 0 1.25rem 0 14.5rem;
+	padding-left: 32.6531%;
+	padding-left: 330px;
+    min-width: 660px;
+	background-color:#eeeeff;
+    */
+  }	
+
+  aside
+  {
+    background-color:#0099cc;
+    background-position: cover;
+    display:block;
+    float: left;
+    height: auto;	
+    margin:0px;
+    min-height: 980px;
+    padding:0px;    
+	width: 32.6531%;
+
+    /* THESE PROPERTIES WERE USED IN PREVIOUS VERSIONS AND/OR FOR TESTING
+    height:100%;
+	margin-bottom:0px;
+    min-height:605px;
+	width:330px;
+	width: 320px;
+    */
+  }
+  
+  footer
+  {
+    background-color:#000000;
+    background: url('../images/black_paper.png') repeat;
+    box-sizing: content-box;
+    color:#ffffff;
+    display:block;  
+    float:bottom;
+    font-family:Arial, Helvetica, Geneva, Swiss, sans-serif;	
+    font-size: 0.8rem;
+    height:60px;	
+    margin-top:0px;
+    margin-right:0px;
+	padding: 0.732031rem;
+    text-align:center;
+    width: 100%;	
+	/* THESE PROPERTIES WERE USED IN PREVIOUS VERSIONS AND/OR FOR TESTING
+	padding:15px;
+	width:980px; */
+  }
+  
+  header
+  {
+    background-color: #000;
+    background: url('../images/black_paper.png') repeat;
+    box-sizing: content-box;
+    color: #fff;
+    font-size: 1.25rem;
+    float: absolute;
+    margin: 0;
+    padding: 1.5rem 0 1.5rem 1.464063rem;
+    width: 100%;
+ 
+/*  THESE PROPERTIES WERE USED IN PREVIOUS VERSIONS AND/OR FOR TESTING
+    /*
+    background:#000000;
+    border:10px;
+    border: 10px solid red;	
+    color:#ffffff;
+    font-size:150%;
+    height:40px;
+    height: 50px;
+	padding:20px; 
+	width:960px
+	*/
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  header .icon 
+  {
+    display: none;
+  }
+  	
+  .wrapper 
+  {
+    float: fixed;
+	height: 100%;
+    margin: 0 auto;
+    min-width: 700px;
+	width: 980px;	
+  }
+}
